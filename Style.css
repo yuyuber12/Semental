@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fdf6e3;
+    color: #333;
+    direction: rtl;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    padding: 2rem;
+    max-width: 600px;
+    margin: auto;
+  }
+  
+  input {
+    font-size: 1.2rem;
+    padding: 0.5rem;
+    width: 60%;
+    margin-top: 1rem;
+  }
+  
+  button {
+    font-size: 1.2rem;
+    padding: 0.5rem 1rem;
+    margin-right: 1rem;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 1rem;
+  }
+  

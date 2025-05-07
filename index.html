@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>סמנטעל משחק</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>🎯 סמנטעל - משחק הניחושים</h1>
+    <h2 id="closestWordDisplay">המילה הכי קרובה עד עכשיו היא: ---</h2>
+    <p>נחשו את המילה הסודית! תקבלו מספר קרבה לכל ניחוש.</p>
+
+    <input type="text" id="guessInput" placeholder="הקלד מילה..." autofocus />
+    <button onclick="submitGuess()">נחש</button>
+    <ul id="guessesList"></ul>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
